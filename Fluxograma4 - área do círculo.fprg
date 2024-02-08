@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Casa"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-07 09:21:37 "/>
+        <attribute name="created" value="Q2FzYTtERVNLVE9QLUkwMjE3RE07MjAyNC0wMi0wNzsiMDk6MTY6MzcgIjsyNTc3"/>
+        <attribute name="edited" value="Q2FzYTtERVNLVE9QLUkwMjE3RE07MjAyNC0wMi0wNzsiMDk6MjE6MzcgIjsxOzI2ODE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="area" type="Real" array="False" size=""/>
+            <declare name="raio" type="Real" array="False" size=""/>
+            <output expression="&quot;Vamos calcular a &#225;rea de um c&#237;rculo! Qual &#233; o raio do c&#237;rculo?&quot;" newline="True"/>
+            <input variable="raio"/>
+            <assign variable="area" expression="3.14 * raio * raio"/>
+            <output expression="&quot;Ap&#243;s realizar a f&#243;rmula, descobrimos que a &#225;rea de um c&#237;rculo com raio de &quot; &amp; raio &amp; &quot;, &#233;: &quot; &amp; area" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
